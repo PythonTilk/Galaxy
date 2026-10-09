@@ -42,7 +42,6 @@ function App() {
   const [view, setView] = useState('Solar System');
   const [selectedPlanet, setSelectedPlanet] = useState<string | null>(null);
   const [selectedLocation, setSelectedLocation] = useState<GalacticLocationData | null>(null);
-  const [selectedLocation, setSelectedLocation] = useState<GalacticLocationData | null>(null);
   const [selectedPlanetData, setSelectedPlanetData] = useState<PlanetData | null>(null);
   const [loading, setLoading] = useState(false);
 

@@ -27,7 +27,6 @@ export const PlanetInspectorOverlay = ({ isOpen, selectedPlanet, planetData, tex
                         width: '100vw',
                         height: '100vh',
                         zIndex: 20, // Above UI
-                        zIndex: 20, // Above UI
                         background: 'rgba(0, 0, 0, 0.2)', // Darken background slightly
                         // backdropFilter: 'blur(10px)', // Removed per user request
                         display: 'flex',

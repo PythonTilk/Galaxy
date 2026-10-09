@@ -21,7 +21,6 @@ interface CelestialBodyProps {
         texturePath?: string;
     }[];
     onClick?: () => void;
-    onClick?: () => void;
     isPaused?: boolean;
     children?: React.ReactNode;
     isSelected?: boolean;
@@ -36,7 +35,6 @@ export const CelestialBody = ({
     texturePath,
     emissive,
     emissiveIntensity = 0,
-    onClick,
     onClick,
     isPaused = false,
     children,

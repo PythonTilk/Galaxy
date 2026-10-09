@@ -11,7 +11,6 @@ interface SceneProps {
     view: string;
     onPlanetSelect?: (name: string | null) => void;
     selectedPlanet: string | null;
-    selectedPlanet: string | null;
     onLocationSelect?: (data: any) => void;
 }
 
